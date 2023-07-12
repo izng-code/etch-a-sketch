@@ -1,0 +1,8 @@
+.container {
+    display: flex; 
+}
+.pixel {
+    border: 2px dashed red;
+    width: 4px;
+    height: 4px;
+}
