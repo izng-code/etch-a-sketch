@@ -14,3 +14,9 @@ for (let i = 0; i < 16; i++) {
         counter++
     }
 }
+let pixels = document.querySelectorAll(".pixel");
+pixels.forEach((pixel) => {
+    pixel.addEventListener("mouseout", () => {
+        pixel.classList.add("active");
+    });
+});

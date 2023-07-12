@@ -2,7 +2,10 @@
     display: flex; 
 }
 .pixel {
-    border: 2px dashed red;
-    width: 4px;
-    height: 4px;
+    border: 2px solid red;
+    width: 24px;
+    height: 24px;
+}
+.active {
+    background-color: black;
 }
